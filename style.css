@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+ul li {
+    list-style: none;
+}
+
+body {
+    background-color: #FEB743;
+}
+
+.container {
+    width: 1900px;
+    max-width: 95%;
+    margin: 25px auto;
+    border-radius: 10px;
+
+}
+
+
+.dados {
+    width: 100%;
+    background-color: antiquewhite;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dados figure legend {
+    margin: 5px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.dados ul li span {
+    display: block;
+    font-weight: bold;
+    padding: 2px;
+}
+
+.dados ul li {
+    margin: 8px;
+}
+
+
+.dados figure img {
+    border-radius: 50%;
+}
+
+.dados:first-child {
+    margin-top: 60px;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.dados:first-child h1 {
+    padding: 14px;
+    font-size: 5rem;
+}
+
+
+.dados:nth-child(2) {
+    justify-content: center;
+    margin-right: 10px;
+}
+
+.dados:nth-child(2)>figure {
+    margin-right: 35px;
+}
+
+
+
+
+.dados:nth-child(3) {
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+
+.dados:nth-child(3) h1 {
+    text-transform: uppercase;
+    font-style: italic;
+    margin: 10px;
+}
+
+.dados:nth-child(3) h4 {
+    margin-top: 15px;
+    margin-left: 25px;
+}
+
+.dados:nth-child(3) h4:first-child {
+    margin-left: 15px;
+    margin-bottom: 10px;
+
+}
+
+.dados:nth-child(3) p {
+    padding: 5px;
+
+}
